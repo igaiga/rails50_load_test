@@ -1,5 +1,5 @@
 class Foo
   def foo
-    "foo!!!"
+    p "foo!!!"
   end
 end

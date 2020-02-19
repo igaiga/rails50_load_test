@@ -1,24 +1,10 @@
-# README
+autoloadとeager_loadのテストサンプルアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 5.0.7.2
+Ruby 2.6.5
 
-Things you may want to cover:
+lib以下にFooクラス定義
 
-* Ruby version
+テストコマンド
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- $ DISABLE_SPRING=true RAILS_ENV=production rails runner "Foo.new.foo"
